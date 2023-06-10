@@ -1,0 +1,10 @@
+<div class="row py-4">
+    <div class="col-md-2" *ngFor="let item of actors">
+        <a [routerLink]="['/details' , item.id , mediaType]">
+            <div class="movie my-3 position-relative">
+                <img [src]=" 'https://image.tmdb.org/t/p/w500' + item.profile_path" class="w-100">
+                <h3 class="h6 py-2 fw-bold font-sm">{{item.name}}</h3>
+            </div>
+        </a>
+    </div>
+</div>

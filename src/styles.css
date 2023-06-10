@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+:root {
+    --bg-main: #131722;
+    --color-main: #fff;
+    --light-bg: #24baef;
+    --border-color: #949cb0;
+    --shadow: rgba(49, 104, 244, 0.971) 0px 2px 4px -1px , rgba(59, 152, 246, 0.848) 0px 4px 5px 0px , rgba(59, 147, 236, 0.93) 0px 1px 10px 0px;
+
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--color-main);
+    font-family: 'Montserrat', sans-serif !important;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
+.bg-lights {
+    background-color: var(--light-bg);
+}
+
+.brdr {
+    background-color: var(--border-color);
+    height: 1px;
+
+}
+
+a,
+a:hover {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+.inputs {
+    background-color: transparent;
+    color: var(--color-main);
+    border: solid 1px var(--border-color);
+}
+
+.vote
+{
+    background-color: var(--light-bg);
+}
+
+footer {
+    background-color: var(--bg-main)
+}
+
+.movie:hover
+{
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+    cursor: pointer;
+}
+.font-sm
+{
+    font-size: 15px;
+}
